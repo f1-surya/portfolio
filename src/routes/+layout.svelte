@@ -1,4 +1,4 @@
-<script>
+<script lang="ts">
 	import '../app.css';
 	import { browser } from '$app/environment';
 
@@ -9,4 +9,6 @@
 	}
 </script>
 
-<slot />
+<main class="w-[90%] m-auto md:p-4 md:w-[40%] flex flex-col">
+  <slot />
+</main>
