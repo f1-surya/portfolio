@@ -4,7 +4,7 @@
 
 <svelte:head>
   <title>Balasurya Ganesamoorthi</title>
-  <meta name="description" content="Balasurya Ganesamoorthi's portfolio" />
+  <meta name="description" content="Surya's portfolio" />
 </svelte:head>
 
 <div class="flex flex-col md:flex-row items-center md:items-start mt-4 gap-4">
@@ -37,12 +37,14 @@
 </p>
 <h2 class="text-xl font-bold mt-4 self-start">Experience:</h2>
 <p class="self-start text-start">
-  I worked as a Fullstack Developer at <a href="https://last2braincells.com" class="text-blue-400" target="_blank">Last
-  2 Brain Cells</a> for a year.
+  I worked as a Fullstack Developer at <a href="https://last2braincells.com" class="text-blue-400"
+                                          target="_blank">
+  Last 2 Brain Cells</a> for a year.
 </p>
 <h2 class="text-xl font-bold mt-4 self-start">Interests:</h2>
 <p class="self-start text-start">
-  I love european sports cars like <i>Porsche</i>, <i>Koenigsegg</i> and <i>Lamborghini</i>. I like v10 engines and manual transmissions.
+  I love european sports cars like <i>Porsche</i>, <i>Koenigsegg</i> and <i>Lamborghini</i>. I like v10 engines and
+  manual transmissions.
   I'm a huge fan of <i>Formula 1</i>, so if anybody brings it up, I will not stop talking about it.
   <br />
   <br />
@@ -54,8 +56,3 @@
   <br />
   I also like to play <i>Minecraft</i>.
 </p>
-<div class="flex flex-row gap-4 self-center w-full justify-center mt-4 text-gray-400">
-  <a href="/blogs">Blogs</a>
-  <a href="/projects">Projects</a>
-  <a href="https://github.com/f1-surya/portfolio">Source</a>
-</div>
