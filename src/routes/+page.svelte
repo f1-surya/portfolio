@@ -31,7 +31,7 @@
 <h2 class="text-xl font-bold mt-4 self-start">Skills:</h2>
 <p class="self-start text-start">
   I worked with the <b>MERN</b> stack and <b>Flutter</b> at a professional level. I know Java, Python, Kotlin, Dart
-  and Typescript programming languages. I&apos;ve been daily driving Linux
+  and Typescript programming languages. I&apos;ve been daily driving <b>Linux</b>
   based operating systems for the past 2 years. I also know <b>Docker</b> and <b>Nginx</b>. I&apos;ve deployed
   multiple apps to <b>GCP</b> using the previously mentioned technologies.
 </p>

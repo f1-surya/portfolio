@@ -7,7 +7,7 @@
   <meta name="description" content="Surya's projects" />
 </svelte:head>
 
-<h1 class="text-3xl font-bold">Projects</h1>
+<h1 class="text-3xl font-bold mt-2">Projects</h1>
 <div class="flex flex-col gap-4 mt-4">
   <Project name="MyWordle"
            description="A wordle game app for Android. It is the first proper project I've worked on. I learned a lot about Android development. And implementing the words comparison algorithm was a fun challenge."

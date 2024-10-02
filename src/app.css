@@ -5,3 +5,15 @@
 body {
   @apply bg-[#010214] text-white text-center;
 }
+
+h1 {
+  @apply text-3xl font-bold;
+}
+
+h2 {
+  @apply text-xl font-bold text-start;
+}
+
+p {
+  @apply text-start;
+}
