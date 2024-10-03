@@ -1,12 +1,17 @@
-import { readdirSync, readFileSync } from "node:fs";
-import matter from "gray-matter";
 import { parse } from "date-fns";
+import matter from "gray-matter";
 
 export async function load() {
-  const files = readdirSync("./blogs");
+  const paths = import.meta.glob("../../../blogs/*.md", { query: "?raw" })
+  const files: string[] = [];
+  for (const path in paths) {
+    // @ts-expect-error
+    const file = (await paths[path]()).default as string;
+    files.push(file);
+  }
+
   const blogs = files.map((file) => {
-    const fileContent = readFileSync(`./blogs/${file}`);
-    const { data } = matter(fileContent);
+    const { data } = matter(file);
     return {
       slug: data.slug,
       title: data.title,
