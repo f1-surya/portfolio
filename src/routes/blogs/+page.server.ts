@@ -2,10 +2,11 @@ import { parse } from "date-fns";
 import matter from "gray-matter";
 
 export async function load() {
-  const path = import.meta.glob("../../../blogs/*.md", { query: "?raw" })
+  const paths = import.meta.glob("../../../blogs/*.md", { query: "?raw" })
   const files: string[] = [];
-  for (const dir in path) {
-    const file = (await path[dir]()).default as string;
+  for (const path in paths) {
+    // @ts-expect-error
+    const file = (await paths[path]()).default as string;
     files.push(file);
   }
 
