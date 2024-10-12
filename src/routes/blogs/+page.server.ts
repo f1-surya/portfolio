@@ -2,7 +2,7 @@ import { parse } from "date-fns";
 import matter from "gray-matter";
 
 export async function load() {
-  const paths = import.meta.glob("../../../blogs/*.md", { query: "?raw" })
+  const paths = import.meta.glob("../../../blogs/*.md", { query: "?raw" });
   const files: string[] = [];
   for (const path in paths) {
     // @ts-expect-error
@@ -15,7 +15,7 @@ export async function load() {
     return {
       slug: data.slug,
       title: data.title,
-      date: parse(data.date, "dd-MM-yyyy", new Date()),
+      date: parse(data.date, "dd-MM-yyyy", new Date())
     };
   });
   // eslint-disable-next-line @typescript-eslint/ban-ts-comment
@@ -25,3 +25,5 @@ export async function load() {
     blogs
   };
 }
+
+export const csr = false;

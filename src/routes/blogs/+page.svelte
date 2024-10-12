@@ -15,7 +15,9 @@
         class="flex flex-col gap-2 p-4 rounded-lg border-2 border-gray-700 hover:border-blue-400 hover:bg-[#010321] transition hover:shadow-md shadow-cyan-500"
       >
         <h2 class="text-xl font-bold text-start">{blog.title}</h2>
-        <p class="text-md text-start text-gray-300">Date: {blog.date.toLocaleDateString()}</p>
+        <p class="text-md text-start text-gray-300">
+          Date: {blog.date.toLocaleDateString()}
+        </p>
       </div>
     </a>
   {/each}

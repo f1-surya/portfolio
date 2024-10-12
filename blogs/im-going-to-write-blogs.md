@@ -4,8 +4,6 @@ date: 2-10-2024
 slug: im-going-to-write-blogs
 ---
 
-# I'm going to write blogs
-
 Hello, everyone
 
 \
