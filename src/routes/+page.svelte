@@ -49,7 +49,12 @@
     target="_blank"
   >
     Last 2 Brain Cells</a
-  > for a year.
+  > for a year. And now I am working at <a
+    href="https://app.gester.in"
+    class="text-blue-400"
+    target="_blank"
+  >
+    Gester</a>.
 </p>
 <h2 class="text-xl font-bold mt-4 self-start">Interests:</h2>
 <p class="self-start text-start">
