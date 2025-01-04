@@ -1,6 +1,5 @@
-<script>
-  export let src;
-  export let url;
+<script lang="ts">
+  let { src, url } = $props();
 </script>
 
 <a class="mb-2" href={url} target="_blank">

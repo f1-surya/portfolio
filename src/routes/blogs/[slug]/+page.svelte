@@ -1,7 +1,7 @@
-<script>
+<script lang="ts">
   import "./markdown.css";
   import "highlight.js/styles/androidstudio.css";
-  export let data;
+  let { data } = $props();
 </script>
 
 <svelte:head>

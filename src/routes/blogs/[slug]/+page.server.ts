@@ -5,14 +5,13 @@ import hljs from "highlight.js";
 import { markedHighlight } from "marked-highlight";
 import { error } from "@sveltejs/kit";
 
-// @ts-expect-error
 export async function load({ params }) {
   const files = import.meta.glob(`../../../../blogs/*.md`, { query: "?raw" });
   let file: string | undefined;
 
   for (const path in files) {
     if (path.includes(params.slug)) {
-      // @ts-expect-error
+      // @ts-expect-error Types are missing
       file = (await files[path]()).default;
     }
   }

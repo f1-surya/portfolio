@@ -1,6 +1,5 @@
 <script>
   import Link from "$lib/components/Link.svelte";
-  export const cst = false;
 </script>
 
 <svelte:head>
@@ -22,6 +21,10 @@
       <Link src="twitter.svg" url="https://x.com/f1_surya" />
       <Link src="instagram.svg" url="https://instagram.com/f1_surya" />
       <Link src="leetcode.svg" url="https://leetcode.com/f1-surya" />
+      <Link
+        src="bluesky.svg"
+        url="https://bsky.app/profile/f1-surya.bsky.social"
+      />
     </div>
   </div>
 </div>
@@ -49,12 +52,11 @@
     target="_blank"
   >
     Last 2 Brain Cells</a
-  > for a year. And now I am working at <a
-    href="https://app.gester.in"
-    class="text-blue-400"
-    target="_blank"
   >
-    Gester</a>.
+  for a year. And now I am working at
+  <a href="https://app.gester.in" class="text-blue-400" target="_blank">
+    Gester</a
+  >.
 </p>
 <h2 class="text-xl font-bold mt-4 self-start">Interests:</h2>
 <p class="self-start text-start">

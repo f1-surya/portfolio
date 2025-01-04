@@ -1,5 +1,9 @@
 <script lang="ts">
-  export let data: { blogs: { slug: string; title: string; date: Date }[] };
+  interface Props {
+    data: { blogs: { slug: string; title: string; date: Date }[] };
+  }
+
+  let { data }: Props = $props();
 </script>
 
 <svelte:head>
